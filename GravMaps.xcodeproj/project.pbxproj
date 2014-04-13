@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B55FDC0F30E415A920C2FA7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EDB52CDBA83468F88ADCF84 /* libPods.a */; };
 		A986C7EC18F998BB008F04DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A986C7EB18F998BB008F04DB /* Foundation.framework */; };
 		A986C7EE18F998BB008F04DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A986C7ED18F998BB008F04DB /* CoreGraphics.framework */; };
 		A986C7F018F998BB008F04DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A986C7EF18F998BB008F04DB /* UIKit.framework */; };
@@ -14,13 +15,32 @@
 		A986C7F818F998BB008F04DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A986C7F718F998BB008F04DB /* main.m */; };
 		A986C7FC18F998BB008F04DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A986C7FB18F998BB008F04DB /* AppDelegate.m */; };
 		A986C7FF18F998BB008F04DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A986C7FD18F998BB008F04DB /* Main.storyboard */; };
-		A986C80218F998BB008F04DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A986C80118F998BB008F04DB /* ViewController.m */; };
+		A986C80218F998BB008F04DB /* MappeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A986C80118F998BB008F04DB /* MappeViewController.m */; };
 		A986C80418F998BB008F04DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A986C80318F998BB008F04DB /* Images.xcassets */; };
 		A986C80B18F998BC008F04DB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A986C80A18F998BC008F04DB /* XCTest.framework */; };
 		A986C80C18F998BC008F04DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A986C7EB18F998BB008F04DB /* Foundation.framework */; };
 		A986C80D18F998BC008F04DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A986C7EF18F998BB008F04DB /* UIKit.framework */; };
 		A986C81518F998BC008F04DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A986C81318F998BC008F04DB /* InfoPlist.strings */; };
 		A986C81718F998BC008F04DB /* GravMapsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A986C81618F998BC008F04DB /* GravMapsTests.m */; };
+		A986C82118F99BA0008F04DB /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A986C82018F99BA0008F04DB /* GoogleMaps.framework */; };
+		A986C82318F99BCF008F04DB /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A986C82218F99BCF008F04DB /* GoogleMaps.bundle */; };
+		A986C82518F99BF6008F04DB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A986C82418F99BF6008F04DB /* AVFoundation.framework */; };
+		A986C82718F99BFF008F04DB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A986C82618F99BFF008F04DB /* CoreData.framework */; };
+		A986C82918F99C07008F04DB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A986C82818F99C07008F04DB /* CoreLocation.framework */; };
+		A986C82B18F99C1A008F04DB /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A986C82A18F99C1A008F04DB /* CoreText.framework */; };
+		A986C82D18F99C22008F04DB /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A986C82C18F99C22008F04DB /* GLKit.framework */; };
+		A986C82F18F99C28008F04DB /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A986C82E18F99C28008F04DB /* ImageIO.framework */; };
+		A986C83118F99C31008F04DB /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A986C83018F99C31008F04DB /* libc++.dylib */; };
+		A986C83318F99C3C008F04DB /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A986C83218F99C3C008F04DB /* libicucore.dylib */; };
+		A986C83518F99C44008F04DB /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A986C83418F99C44008F04DB /* libz.dylib */; };
+		A986C83718F99C4B008F04DB /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A986C83618F99C4B008F04DB /* OpenGLES.framework */; };
+		A986C83918F99C54008F04DB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A986C83818F99C54008F04DB /* QuartzCore.framework */; };
+		A986C83B18F99C5F008F04DB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A986C83A18F99C5F008F04DB /* SystemConfiguration.framework */; };
+		A986C83E18F9A013008F04DB /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = A986C83D18F9A013008F04DB /* Utils.m */; };
+		A986C84518F9C530008F04DB /* countryBorder.json in Resources */ = {isa = PBXBuildFile; fileRef = A986C84418F9C530008F04DB /* countryBorder.json */; };
+		A991D98618F9EA100078ACA7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A991D98518F9EA100078ACA7 /* MapKit.framework */; };
+		A991D98E18FA0F5B0078ACA7 /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = A991D98D18FA0F5B0078ACA7 /* MyAnnotation.m */; };
+		A991D99118FA41690078ACA7 /* CalculateWeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A991D99018FA41690078ACA7 /* CalculateWeightViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +54,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4EDB52CDBA83468F88ADCF84 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		831E8423C3094EB1B2CC9159 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		A986C7E818F998BB008F04DB /* GravMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GravMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A986C7EB18F998BB008F04DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A986C7ED18F998BB008F04DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +67,36 @@
 		A986C7FA18F998BB008F04DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A986C7FB18F998BB008F04DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A986C7FE18F998BB008F04DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A986C80018F998BB008F04DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A986C80118F998BB008F04DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A986C80018F998BB008F04DB /* MappeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MappeViewController.h; sourceTree = "<group>"; };
+		A986C80118F998BB008F04DB /* MappeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MappeViewController.m; sourceTree = "<group>"; };
 		A986C80318F998BB008F04DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A986C80918F998BC008F04DB /* GravMapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GravMapsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A986C80A18F998BC008F04DB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A986C81218F998BC008F04DB /* GravMapsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GravMapsTests-Info.plist"; sourceTree = "<group>"; };
 		A986C81418F998BC008F04DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A986C81618F998BC008F04DB /* GravMapsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GravMapsTests.m; sourceTree = "<group>"; };
+		A986C82018F99BA0008F04DB /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		A986C82218F99BCF008F04DB /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		A986C82418F99BF6008F04DB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A986C82618F99BFF008F04DB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A986C82818F99C07008F04DB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A986C82A18F99C1A008F04DB /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		A986C82C18F99C22008F04DB /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		A986C82E18F99C28008F04DB /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		A986C83018F99C31008F04DB /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		A986C83218F99C3C008F04DB /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		A986C83418F99C44008F04DB /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		A986C83618F99C4B008F04DB /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		A986C83818F99C54008F04DB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A986C83A18F99C5F008F04DB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A986C83C18F9A013008F04DB /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		A986C83D18F9A013008F04DB /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		A986C84418F9C530008F04DB /* countryBorder.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countryBorder.json; sourceTree = "<group>"; };
+		A991D98518F9EA100078ACA7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A991D98C18FA0F5B0078ACA7 /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotation.h; sourceTree = "<group>"; };
+		A991D98D18FA0F5B0078ACA7 /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotation.m; sourceTree = "<group>"; };
+		A991D98F18FA41690078ACA7 /* CalculateWeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateWeightViewController.h; sourceTree = "<group>"; };
+		A991D99018FA41690078ACA7 /* CalculateWeightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateWeightViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +104,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A991D98618F9EA100078ACA7 /* MapKit.framework in Frameworks */,
+				A986C83B18F99C5F008F04DB /* SystemConfiguration.framework in Frameworks */,
+				A986C83918F99C54008F04DB /* QuartzCore.framework in Frameworks */,
+				A986C83718F99C4B008F04DB /* OpenGLES.framework in Frameworks */,
+				A986C83518F99C44008F04DB /* libz.dylib in Frameworks */,
+				A986C83318F99C3C008F04DB /* libicucore.dylib in Frameworks */,
+				A986C83118F99C31008F04DB /* libc++.dylib in Frameworks */,
+				A986C82F18F99C28008F04DB /* ImageIO.framework in Frameworks */,
+				A986C82D18F99C22008F04DB /* GLKit.framework in Frameworks */,
+				A986C82B18F99C1A008F04DB /* CoreText.framework in Frameworks */,
+				A986C82918F99C07008F04DB /* CoreLocation.framework in Frameworks */,
+				A986C82718F99BFF008F04DB /* CoreData.framework in Frameworks */,
+				A986C82518F99BF6008F04DB /* AVFoundation.framework in Frameworks */,
 				A986C7EE18F998BB008F04DB /* CoreGraphics.framework in Frameworks */,
 				A986C7F018F998BB008F04DB /* UIKit.framework in Frameworks */,
 				A986C7EC18F998BB008F04DB /* Foundation.framework in Frameworks */,
+				A986C82118F99BA0008F04DB /* GoogleMaps.framework in Frameworks */,
+				8B55FDC0F30E415A920C2FA7 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,10 +141,12 @@
 		A986C7DF18F998BB008F04DB = {
 			isa = PBXGroup;
 			children = (
+				A986C84418F9C530008F04DB /* countryBorder.json */,
 				A986C7F118F998BB008F04DB /* GravMaps */,
 				A986C81018F998BC008F04DB /* GravMapsTests */,
 				A986C7EA18F998BB008F04DB /* Frameworks */,
 				A986C7E918F998BB008F04DB /* Products */,
+				831E8423C3094EB1B2CC9159 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +162,26 @@
 		A986C7EA18F998BB008F04DB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A991D98518F9EA100078ACA7 /* MapKit.framework */,
+				A986C83A18F99C5F008F04DB /* SystemConfiguration.framework */,
+				A986C83818F99C54008F04DB /* QuartzCore.framework */,
+				A986C83618F99C4B008F04DB /* OpenGLES.framework */,
+				A986C83418F99C44008F04DB /* libz.dylib */,
+				A986C83218F99C3C008F04DB /* libicucore.dylib */,
+				A986C83018F99C31008F04DB /* libc++.dylib */,
+				A986C82E18F99C28008F04DB /* ImageIO.framework */,
+				A986C82C18F99C22008F04DB /* GLKit.framework */,
+				A986C82A18F99C1A008F04DB /* CoreText.framework */,
+				A986C82818F99C07008F04DB /* CoreLocation.framework */,
+				A986C82618F99BFF008F04DB /* CoreData.framework */,
+				A986C82418F99BF6008F04DB /* AVFoundation.framework */,
+				A986C82218F99BCF008F04DB /* GoogleMaps.bundle */,
+				A986C82018F99BA0008F04DB /* GoogleMaps.framework */,
 				A986C7EB18F998BB008F04DB /* Foundation.framework */,
 				A986C7ED18F998BB008F04DB /* CoreGraphics.framework */,
 				A986C7EF18F998BB008F04DB /* UIKit.framework */,
 				A986C80A18F998BC008F04DB /* XCTest.framework */,
+				4EDB52CDBA83468F88ADCF84 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,13 +189,18 @@
 		A986C7F118F998BB008F04DB /* GravMaps */ = {
 			isa = PBXGroup;
 			children = (
+				A986C84318F9C43C008F04DB /* Controller */,
 				A986C7FA18F998BB008F04DB /* AppDelegate.h */,
 				A986C7FB18F998BB008F04DB /* AppDelegate.m */,
 				A986C7FD18F998BB008F04DB /* Main.storyboard */,
-				A986C80018F998BB008F04DB /* ViewController.h */,
-				A986C80118F998BB008F04DB /* ViewController.m */,
+				A991D98F18FA41690078ACA7 /* CalculateWeightViewController.h */,
+				A991D99018FA41690078ACA7 /* CalculateWeightViewController.m */,
 				A986C80318F998BB008F04DB /* Images.xcassets */,
 				A986C7F218F998BB008F04DB /* Supporting Files */,
+				A986C83C18F9A013008F04DB /* Utils.h */,
+				A986C83D18F9A013008F04DB /* Utils.m */,
+				A991D98C18FA0F5B0078ACA7 /* MyAnnotation.h */,
+				A991D98D18FA0F5B0078ACA7 /* MyAnnotation.m */,
 			);
 			path = GravMaps;
 			sourceTree = "<group>";
@@ -152,6 +234,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A986C84318F9C43C008F04DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A986C80018F998BB008F04DB /* MappeViewController.h */,
+				A986C80118F998BB008F04DB /* MappeViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +250,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A986C81A18F998BC008F04DB /* Build configuration list for PBXNativeTarget "GravMaps" */;
 			buildPhases = (
+				FDC9905D70334C4A94A37455 /* Check Pods Manifest.lock */,
 				A986C7E418F998BB008F04DB /* Sources */,
 				A986C7E518F998BB008F04DB /* Frameworks */,
 				A986C7E618F998BB008F04DB /* Resources */,
+				B21DAF54B2214615BFCFC225 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,7 +323,9 @@
 			files = (
 				A986C80418F998BB008F04DB /* Images.xcassets in Resources */,
 				A986C7F618F998BB008F04DB /* InfoPlist.strings in Resources */,
+				A986C84518F9C530008F04DB /* countryBorder.json in Resources */,
 				A986C7FF18F998BB008F04DB /* Main.storyboard in Resources */,
+				A986C82318F99BCF008F04DB /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +339,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B21DAF54B2214615BFCFC225 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDC9905D70334C4A94A37455 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A986C7E418F998BB008F04DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A986C80218F998BB008F04DB /* ViewController.m in Sources */,
+				A986C80218F998BB008F04DB /* MappeViewController.m in Sources */,
+				A991D99118FA41690078ACA7 /* CalculateWeightViewController.m in Sources */,
+				A991D98E18FA0F5B0078ACA7 /* MyAnnotation.m in Sources */,
 				A986C7FC18F998BB008F04DB /* AppDelegate.m in Sources */,
 				A986C7F818F998BB008F04DB /* main.m in Sources */,
+				A986C83E18F9A013008F04DB /* Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,9 +504,14 @@
 		};
 		A986C81B18F998BC008F04DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 831E8423C3094EB1B2CC9159 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GravMaps/GravMaps-Prefix.pch";
 				INFOPLIST_FILE = "GravMaps/GravMaps-Info.plist";
@@ -386,9 +522,14 @@
 		};
 		A986C81C18F998BC008F04DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 831E8423C3094EB1B2CC9159 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GravMaps/GravMaps-Prefix.pch";
 				INFOPLIST_FILE = "GravMaps/GravMaps-Info.plist";
@@ -456,6 +597,7 @@
 				A986C81C18F998BC008F04DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A986C81D18F998BC008F04DB /* Build configuration list for PBXNativeTarget "GravMapsTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +606,7 @@
 				A986C81F18F998BC008F04DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
