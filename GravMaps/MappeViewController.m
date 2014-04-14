@@ -133,9 +133,9 @@
   
   [NSURLConnection sendAsynchronousRequest:[[NSURLRequest alloc] initWithURL:url] queue:[[NSOperationQueue alloc] init] completionHandler:^(NSURLResponse *response, NSData *data, NSError *error) {
     
-    [hud hide:YES];
     if (error) {
       NSLog(@"ERRORE");
+      [hud hide:YES];
       self.lblGravita.text= @"C'è stato un errore riprova";
     } else {
       NSLog(@"aaa");
@@ -152,6 +152,7 @@
       self.lblGravita.text= [NSString stringWithFormat:@"%f", gravita];
       [[Utils sharedUtils]putLastGravity:gravita];
       [self.mapView addAnnotation:annotation];
+      [hud hide:YES];
     }
   }];
 }
@@ -222,9 +223,9 @@
       
       [NSURLConnection sendAsynchronousRequest:[[NSURLRequest alloc] initWithURL:url] queue:[[NSOperationQueue alloc] init] completionHandler:^(NSURLResponse *response, NSData *data, NSError *error) {
         
-        [hud hide:YES];
         if (error) {
           NSLog(@"ERRORE");
+          [hud hide:YES];
           self.lblGravita.text= @"C'è stato un errore riprova";
         } else {
           NSLog(@"aaa");
@@ -241,6 +242,7 @@
           [[Utils sharedUtils]putLastGravity:gravita];
 
           [self.mapView addAnnotation:annotation];
+          [hud hide:YES];
         }
       }];
       
